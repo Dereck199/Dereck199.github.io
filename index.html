@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: greenyellow !important;
+            color: black;
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%; /* Hace que la imagen sea circular */
+            border: 3px solid white; /* Añade un borde blanco */
+            object-fit: cover; /* Asegura que la imagen mantenga la proporción */
+        }
+        .header-text {
+            flex-grow: 1; /* Permite que el texto tome el espacio necesario */
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section p {
+            margin: 0;
+        }
+        .skills-list, .experience-list, .education-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .experience-list li, .education-list li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/img/f00aab96-9b15-4823-90f7-75db6b3aa685.jpg" alt="Foto de perfil" class="profile-pic">
+        
+        <div class="header-text">
+            <h1>Aarón Agurto Reinoso</h1>
+            <p>Desarrollador Web | aaron.agurtor@ug.com.ec | +593 996 83 5418</p>
+            <p><a href="https://www.facebook.com/Polarkiut199" target="_blank" style="color: black;">Facebook</a></p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Perfil</h2>
+            <p>Soy un estudiante de quinto semestre en la carrera de Ingenieria en sistemas de la Información con experiencia en tecnologías como HTML, CSS, JavaScript y Python.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experiencia Laboral</h2>
+            <ul class="experience-list">
+                <li>
+                    <strong>Ayudante de Mecánica</strong> - (2014 - 2016)
+                </li>
+                <li>
+                    <strong>Asistente de Fiscalización</strong> - (2016 - 2017)
+                </li>
+                <li>
+                    <strong>Asistente de obra</strong> - (2018 - 2018)
+                </li>
+                <li>
+                    <strong>Atención al Cliente en Servicio Claro</strong> - (2020 - 2020)
+                </li>
+                <li>
+                    <strong>Atención al Cliente en Consorcio Aero Suspendido Guayaquil - Sofratesa y Poma S.A.S</strong> - (2023 - 2023)
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Educación</h2>
+            <ul class="education-list">
+                <li>
+                    <strong>SECUNDARIA: Titulo en Bachiller</strong> - Unidad Educativa Oneil (2018 - 2021)
+                </li>
+                <li>
+                    <strong>Conceptos básicos de informática</strong> - CENTRO TÉCNICO POPULAR GUAYASTEC (2019 - 2019)
+                </li>
+                <li>
+                    <strong>Aplicaciones Ofimáticas (Programa Office)</strong> - CENTRO TÉCNICO POPULAR GUAYASTEC (2019 - 2019)
+                </li>
+                <li>
+                    <strong>Capacitación Tecnológica Avanzada en Informática</strong> - CENTRO TÉCNICO POPULAR GUAYASTEC (2019 - 2019)
+                </li>
+                <li>
+                    <strong>Diseño Gráfico</strong> - CENTRO TÉCNICO POPULAR GUAYASTEC (2019 - 2019)
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>HTML, CSS, JavaScript, Node.js</li>
+                <li>Python, SQL</li>
+                <li>Git, GitHub, GitLab</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
